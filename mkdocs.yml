@@ -28,8 +28,7 @@ nav:
     - KOBman:
         - README: KOBman/README.md
         
-extra_css:
-    - css/extra.css
+
 
 markdown_extensions:
     - toc:
