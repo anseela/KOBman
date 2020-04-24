@@ -1,33 +1,33 @@
 
-site_name: MkDocs
-site_url: https://www.mkdocs.org
+site_name:KochiOrgBook
+site_url: https://www.KochiOrgBook.in
 site_description: Project documentation with Markdown.
-site_author: MkDocs Team
+site_author: KochiOrgBookTeam
 
-repo_url: https://github.com/mkdocs/mkdocs/
+repo_url: https://github.com/anseela/KOBman/tree/master/docs
 edit_uri: ""
 
 theme:
-    name: mkdocs
+    name: KochiOrgBook 
     highlightjs: true
     hljs_languages:
         - yaml
         - django
-
+# Page tree
 nav:
     - Home: index.md
+        -ContactUs_ContributeWithUs: ContactUs_ContributeWithUs.md
     - User Guide:
-        - Writing Your Docs: user-guide/writing-your-docs.md
-        - Styling Your Docs: user-guide/styling-your-docs.md
-        - Configuration: user-guide/configuration.md
-        - Deploying Your Docs: user-guide/deploying-your-docs.md
-        - Custom Themes: user-guide/custom-themes.md
-        - Plugins: user-guide/plugins.md
-    - About:
-        - Release Notes: about/release-notes.md
-        - Contributing: about/contributing.md
-        - License: about/license.md
-
+        - ManuelSteps: user-guide/02_ManuelSteps.md
+        - AutomatedScript: user-guide/03_AutomatedScript.md
+        - Getting Started User Guide: user-guide/Getting Started User Guide.md
+        - Maintainers-handbook: user-guide/Maintainers-handbook.md
+        - Manual_steps: user-guide/Manual_steps.md
+        - Proxy_ManuelSteps: user-guide/Proxy_ManuelSteps.md
+    
+    - KOBman:
+        - README: KOBman/README.md
+        
 extra_css:
     - css/extra.css
 
@@ -40,8 +40,8 @@ markdown_extensions:
         user: mkdocs
         repo: mkdocs
 
-copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
-google_analytics: ['UA-27795084-5', 'mkdocs.org']
+copyright:
+google_analytics: 
 
 plugins:
     - search
